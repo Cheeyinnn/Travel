@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Travel HUB FAQ</title>
+
+  <!-- Favi Icon-->
+  <link rel="icon" type="image/x-icon" href="pic/favicon.png">
+
+  <!-- Link to CSS-->
+  <link rel="stylesheet" href="travelmainstyle.css">
+  <link rel="stylesheet" href="faq.css" />
+
+  <!-- Box Icons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+</head>
+
+<body>
+
+  <!-- Nav Bar-->
+  <header>
+        
+    <a href="travelmain.html" class="logo"><i class='bx bxs-briefcase-alt-2'></i> Travel HUB </a>
+
+    <!-- Menu Icon-->
+    <div class ="bx bx-menu" id="menu-icon"> </div>
+
+    <!-- Nav List-->
+    <ul class ="navbar">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="travelmain.html" class="home-active">Home</a></li>
+        <li><a href="season.html">Destination</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+     </ul>
+
+  </header>
+
+  <div class="box">
+    <h2><i class="fas fa-plane-departure"></i> Travel HUB FAQ</h2>
+
+    <!-- FAQ List -->
+    <div class="faq-category">
+      <div class="faq-item">
+        <strong>What is Travel Hub? </strong> <i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">Travel HUB is a website that shares travel guides, tips, and destination ideas for people who love to explore the world.</div>
+      </div>
+      <div class="faq-item">
+        <strong>Can I book flights or hotels here?</strong><i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">No, Travel HUB does not offer bookings. We only provide travel information to help you plan your trips.</div>
+      </div>
+      <div class="faq-item">
+        <strong>What kind of destinations do you cover?</strong><i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">We cover a variety of countries such as Australia, Canada, and the Czech Republic, with more being added..</div>
+      </div>
+      <div class="faq-item">
+        <strong>Do you have travel guides for each season?</strong><i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">Yes, we share travel ideas based on seasons like Autumn and Winter, so you can pick the best time to go.</div>
+      </div>
+      <div class="faq-item">
+        <strong>Is the information on the website updated?</strong><i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">Yes, we try to keep our articles and guides up to date with new places and travel tips.</div>
+      </div>
+      <div class="faq-item">
+        <strong>Can I write for Travel HUB?</strong><i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">Yes, if you love to travel and write, you can contact us to share your story or tips on our blog.
+      </div>
+      </div>
+      <div class="faq-item">
+        <strong>How do I contact the Travel HUB team?</strong><i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">You can find our contact details on the About Us page.</div>
+      </div>
+      <div class="faq-item">
+        <strong>Is the website good for first-time travelers?</strong><i class="fas fa-chevron-down"></i>
+        <div class="faq-answer">Yes! Our guides are written in simple language and are great for people new to traveling.
+      </div>
+      </div>
+        <div class="faq-item">
+          <strong>Can I read travel stories or blogs?</strong><i class="fas fa-chevron-down"></i>
+          <div class="faq-answer">Yes, we have a blog section where you can read real travel stories and tips.</div>
+      </div>
+        <div class="faq-item">
+          <strong>Do you give travel safety advice?</strong><i class="fas fa-chevron-down"></i>
+          <div class="faq-answer">We include basic safety tips in our guides to help you stay safe during your trips.</div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      item.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+
+
+
+<section class = "footer" id="footer">
+  <div class = "footer-box">
+      <a href="travelmain.html" class="logo"><i class='bx bxs-briefcase-alt-2'></i> Travel HUB</a>
+      <br>
+      <h3>Contact Us :</h3>
+      <div class = "social">
+        <a href = "https://www.facebook.com/share/1BrpyEndxb/"><i class='bx bxl-facebook'>Facebook</i></a>
+        <a href = "https://www.instagram.com/travel_hub9?igsh=MWE5eDhuM3YyYndhdw==&utm_source=ig_contact_invite" ><i class='bx bxl-instagram'>Instagram</i></a>
+        <a href = "https://youtube.com/@travelhub-b2h?si=idRhz0qqCzV0JVHt" ><i class='bx bxl-youtube'>Youtube</i></a>
+    </div> 
+  </div>
+      
+  <div class = "footer-box">
+      <h2>Useful Links</h2>
+      <a href = "travelmain.html"> Home </a>
+      <a href = "season.html"> Destination </a>
+      <a href = "blog.html"> Blog </a>
+      <a href = "aboutus.html"> About Us </a>
+      <a href = "faq.html"> FAQ </a>
+      <a href = "feedback.html"> Feedback </a>
+  </div>
+
+  <div class = "footer-box">
+      <h2>Destination</h2>
+      <h5>Choose a favourable season</h5> <br>
+      <a href = "spring.html"> Spring </a>
+      <a href = "summer.html"> Summer </a>
+      <a href = "autumn.html"> Autumn </a>
+      <a href = "winter.html"> Winter </a>
+     
+  </div>
+</section>
+
+  <!-- Copy Right -->
+  <div class = "copyright">
+      <p> &copy;Copyright TravelHub. All Rights Reserved.</p>
+  </div> 
+
+  <!-- Link To JS-->
+  <script src = "main.js"> </script>
+
+</body>
+
+</html>
